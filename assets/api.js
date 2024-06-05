@@ -1,6 +1,6 @@
 let miurl = "https://rickandmortyapi.com/api/character"
 
-//Nombre la variable como mi url y defini con la url de la API de los personajes de ricky and morty
+//Nombre la variable como mi url y defini con la url de la API de los personajes de ricky and morty.
 
 //con la siguiente funcion procesamos el fetch, se obtiene el contenido de la API; 
 //en caso de que no se pueda obtener el contenido, en la consola se mostrara la leyenda "Hubo un error"
@@ -20,7 +20,7 @@ let container = document.getElementById("container")
 
 //Se utiliza a la funcion para llamar a la API y con el id que definimos  anteriormente 
 //se utilizo el inner html en el cual se agrego contenido html, 
-//seleccionando los elementos del API que se quiere mostrar
+//seleccionando los elementos del API que se quiere mostrar.
 
 procesarFetch(miurl)
 
